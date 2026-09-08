@@ -50,4 +50,9 @@ class Box {
     return box;
   }
 
+  /*destroyBox()*/
+  destroyBox() {
+      delete this;
+  }
+
 };
