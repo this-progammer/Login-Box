@@ -50,8 +50,8 @@ class LoginPage {
                       if( name[i] == '\0' or null ) {
                           name = 'Login::Page\n';
                       }
-                        page.getPage(); page.getPageContainer();
-                        page.addType( login_box ); page.addType( password_box );
+                        page.getPage();               page.getPageContainer();
+                        page.addType( login_box );    page.addType( password_box );
                         page.addType( login_button ); page.addType( reset_button );
                   }
                 
