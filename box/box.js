@@ -55,4 +55,9 @@ class Box {
       delete this;
   }
 
+  /*boxClientMessage()*/
+  boxClientMessage( message ) {
+      console.log("${message}");
+  }
+
 };
